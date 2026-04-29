@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\OktobarTri2025.props" />
+</Project>

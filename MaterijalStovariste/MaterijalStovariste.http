@@ -1,0 +1,6 @@
+@MaterijalStovariste_HostAddress = http://localhost:5073
+
+GET {{MaterijalStovariste_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

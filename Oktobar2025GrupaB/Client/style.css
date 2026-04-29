@@ -1,0 +1,80 @@
+.container {
+    width: 100%;
+}
+
+.prikazContainer {  /* sve prodavnice su jedna ispod druge */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.formProdavnica { /* forma i prodavnica su jedna pored druge */
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.formNaslovContainer { /* forma i naslov su jedan ispod drugog */
+    display: flex;
+    flex-direction: column;
+}
+
+.formContainer { /* elementi forme su jedan ispod drugog */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.naslov {
+    text-align: center;
+}
+
+.redContainer {
+    display: grid; 
+    grid-template-columns: 90px 120px;
+}
+
+.prodavnicaContainer { /* hamburgeri su jedan pored drugog */
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: flex-end;
+}
+
+.hamburgerContainer { /* prilozi su jedan ispod drugog */
+    display: flex;
+    flex-direction: column;
+}
+
+.prilogContainer { /* elementi priloga: naziv, bar, dugme su jedan ispod drugog */
+    display: flex;
+    flex-direction: column;
+}
+
+.bar {
+    background-color: red;
+    width: 70px;
+}
+
+.nazivPriloga {
+    height: 20px;
+    width: 70px;
+    text-align: center;
+    background-color: grey;
+}
+
+.nazivHamburgera {
+    text-align: center;
+}
+
+.select {
+    width: 120px;
+}
+
+.input {
+    width: 120px;
+}
+
+.button {
+    width: 210px;
+}

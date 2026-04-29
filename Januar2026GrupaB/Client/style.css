@@ -1,0 +1,90 @@
+.container {
+    width: 100%;
+}
+
+.prikazContainer { /* prodavnice su jedna ispod druge */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.prodavnicaContainer { /* zaglavlje je iznad forme i desnog dela */
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    width: 1600px;
+}
+
+.zaglavljeContainer { /* naslov prodavnice i ukupna cena su jedno ispod drugog */
+    display: flex;
+    flex-direction: column;
+}
+
+.formDesniDeoContainer { /* forma i desni deo su jedan pored drugog */
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.formContainer { /* elementi forme su jedan ispod drugog*/
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+.redContainer {
+    display: grid;
+    grid-template-columns: 70px 120px;
+}
+
+.desniDeoContainer { /* sva mesta su jedno pored drugog */
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.mestoContainer { /* elementi mesta su jedan ispod drugog */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid grey;
+    padding-left: 60px;
+    padding-right: 60px;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+.sastojakContainer {
+    background-color: red;
+    width: 80px;
+    text-align: center;
+    border: 1px solid black;
+    height: 30px;
+}
+
+.select {
+    width: 120px;
+}
+
+.input {
+    width: 120px;
+}
+
+.button {
+    width: 190px;
+}
+
+/* .naslovProdavniceContainer {
+    height: 50px;
+} */
+
+.naslov {
+    text-align: center;
+    /* border: 1px solid grey; */
+}
+
+.cenaProdavniceContainer {
+    text-align: center;
+    border: 1px solid grey;
+}

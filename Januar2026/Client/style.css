@@ -1,0 +1,83 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.prikazContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.redContainer {  /* zaglavlje i akcija treba da budu iznad forme i prodavnice */
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    box-sizing: border-box;
+    /* padding: 10px; */
+}
+
+ .formaProdavnicaContainer { /* forma treba da bude pored prodavnice */
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.formContainer {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid-grey;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.redForme { 
+    display: grid;
+    grid-template-columns: 80px 180px;
+}
+
+.prodavnicaContainer { /* artikli treba da budu jedan pored drugog */
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+
+.artikalContainer { /* clanovi artikla(sifra, cena, button) treba da budu jedan ispod drugog */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sifra {
+    text-align: center;
+}
+
+.cena {
+    text-align: center;
+}
+
+.kolicina {
+    text-align: center;
+}
+
+.button {
+    text-align: center;
+}
+
+.naslovZaglavljaContainer { /* naslov i akcija su jedan ispod drugog */
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+}
+
+.naslovZaglavlja {
+    text-align: center;
+}
+
+.artikalZaglavlja {
+    text-align: center;
+}
+

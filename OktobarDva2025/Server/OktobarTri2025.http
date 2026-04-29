@@ -1,0 +1,6 @@
+@OktobarTri2025_HostAddress = http://localhost:5043
+
+GET {{OktobarTri2025_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.prikazContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+ .formaFabrikaContainer {  /* forma i desni deo jedan pored drugog */
+    /* display: flex;
+    flex-direction: row; */
+    display: grid;
+    grid-template-columns: 100px 400px;
+}
+
+.formContainer { /* svi elementi forme jedan pored drugog */
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+}
+
+.fabrikaZaglavljeContainer { /* zaglavlje i fabrika jedan ispod drugog */
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+}
+
+.fabrikaContainer { /* elementi fabrike, tj. kontejneri jedan pored drugog */
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.kontejnerContainer {
+    /* width: 100px; */
+    flex: 1;
+    height: 100px;
+    border: 1px solid grey;
+}
+
+.selectBoja {
+    width: 60px;
+}
+
+.inputKolicina {
+    width: 60px;
+}
+
+.button {
+    width: 60px;
+}

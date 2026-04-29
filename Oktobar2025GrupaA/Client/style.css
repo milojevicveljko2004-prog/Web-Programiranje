@@ -1,0 +1,75 @@
+.container {
+    width: 100%;
+}
+
+.prikazContainer { /* sve prod. kuce su jedna pored druge */
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.prodKucaContainer { /* formNaslov i statistika su jedan ispod drugog */
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    padding: 10px;
+    gap: 20px;
+}
+
+ .formNaslovContainer { /* da naslov i forma budu jedan ispod drugog */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.naslov {
+    text-align: center;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.redForme {
+    display: grid;
+    grid-template-columns: 120px 200px;
+}
+
+.statistikaContainer { /* U njemu su ocena, bar i nazivFilma. Jedan pored drugog */
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end; /* omogucava da kontent bude zakovan za dno. Raste odozdo na gore. */
+}
+
+/* .ocenaFilma {
+    text-align: center;
+} */
+
+/* .barContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+/* .nazivFilma {
+   text-align: center;
+} */
+
+.filmContainer {
+    width: 200px;
+}
+
+.barContainer {
+    width: 25px;
+}
+
+.btnContainer {
+    padding-left: 120px;
+}
+
+.button {
+    width: 200px;
+}
+

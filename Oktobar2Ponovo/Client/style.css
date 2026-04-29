@@ -1,0 +1,104 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.prikazContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.redContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+    box-sizing: border-box; /* razmaci kao sto su border spadaju unutar ovih 260px */
+    padding: 10px;
+    gap: 10px;
+    border: 1px solid grey;
+    margin: 10px;
+}
+
+.formContainer h3{
+    text-align: center;
+}
+
+.formContainer label{
+    text-align: left;
+    font-size: 14px;
+}
+
+.formContainer input,
+.formContainer select{
+    width: 140px;
+    height: 24px;
+    box-sizing: border-box;
+}
+
+.formContainer button{
+    height: 25px;
+}
+
+.redForme {
+    display: grid;
+    grid-template-columns: 80px 180px;
+}
+
+.prodavnicaContainer {
+    width: 700px;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid grey;
+}
+
+.prodavnicaContainer h3 {
+    text-align: center;
+}
+
+.proizvodRed {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 10px;
+    justify-content: space-between; /* za razmak izmedju, mnogo bitno!!! Pravi prazan prostor izmedju levog i desnog dela */
+    align-items: center;
+}
+
+.leviDeoContainer {
+    flex: 1; /* zauzmi sav raspoloziv prostor koji mozes */
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.barContainer {
+    width: 100%; /* zauzmicelu sirinu roditelja, tj leviDeoContainer */
+    height: 12px; /* visina trake */
+    border: 1px solid black; /* okvir oko bara */
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.bar {
+    height: 100%; /* Neka unutrašnja crna traka bude visoka koliko i spoljašnji okvir(barContainer) */
+    background-color: black;
+}
+
+.desniContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+}
+
+.inputKolicina {
+    width: 50px;
+}

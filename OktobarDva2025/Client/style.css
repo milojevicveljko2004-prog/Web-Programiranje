@@ -1,0 +1,48 @@
+.formContainer {
+    width: 260px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid gray;
+}
+
+.formContainer h3 {
+    text-align: center;
+}
+
+.redForme {
+    display: grid;
+    grid-template-columns: 90px 140px;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.redForme label {
+    text-align: left;
+    font-size: 14px;
+}
+
+.redForme input,
+.redForme select {
+    width: 140px;
+    height: 26px;
+    box-sizing: border-box;
+}
+
+.formContainer button {
+    width: 140px;
+    height: 30px;
+    margin-left: 60px; 
+    box-sizing: border-box;
+}
+
+.shopContainer {
+    width: 400px;
+    border: 1px solid grey;
+}
+
+.shopContainer h3{
+    text-align: center;
+}
